@@ -1,0 +1,44 @@
+.table {
+  width: 600px;
+  border-collapse: collapse;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+/*.thead {*/
+/*}*/
+
+/*.thead .tr {*/
+/*}*/
+
+.th {
+  background-color: #2a2a2a;
+  font-size: 20px;
+  color: white;
+}
+
+.tbody {
+  text-align: center;
+}
+
+/*.tbody .tr {*/
+/*}*/
+
+.th,
+.td {
+  border-right: 1px solid black;
+  padding: 8px;
+}
+
+.td {
+  font-size: 18px;
+}
+
+.bigFirstLetter:first-letter {
+  text-transform: uppercase;
+}
+
+.tbody .tr:nth-child(even) {
+  background-color: lightgray;
+}

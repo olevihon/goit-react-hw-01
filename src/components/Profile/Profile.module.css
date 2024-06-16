@@ -1,0 +1,76 @@
+.container {
+  border: 1px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 500px;
+
+  text-align: center;
+}
+
+.userInfo {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.userImage {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #2a2a2a;
+}
+
+.userName {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.userText {
+  font-size: 24px;
+  color: gray;
+}
+
+.userTextWithIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+
+.userTextIcon {
+  position: relative;
+  top: 2px;
+}
+
+.statsList {
+  border-top: 1px solid gray;
+  display: flex;
+}
+
+.statsListItem {
+  width: 33.3333%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+
+  background-color: lightgray;
+  padding: 18px 8px;
+}
+
+.statsListItem:not(:last-child) {
+  border-right: 1px solid gray;
+}
+
+.statsTitle {
+  display: block;
+  font-size: 24px;
+}
+
+.statsCount {
+  display: block;
+  font-size: 24px;
+  font-weight: 700;
+}
